@@ -1,0 +1,115 @@
+﻿@{
+	ViewBag.Title = "Home Page";
+}
+<style>
+	button.close {
+		color: #fff !important;
+		opacity: 0.8 !important;
+	}
+
+	.redcolor {
+		color: red;
+	}
+</style>
+<div id="dvContactInformations" class="container1">
+	<div class="sortable ui-sortable">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="portlet card-draggable ui-sortable-handle">
+					<div class="portlet-heading portlet-default portret-custom portret-border box-header-toggle1 padding-top-bottom-0px">
+						<div class="zmdi-minus-common">
+							<h3 class="portlet-title panel-title-color">
+								Contact Details
+							</h3>
+							<div class="portlet-widgets">
+								<div class="pull-right full-width ptb2-3px">
+									<input type="button" class="btn btn-success waves-effect waves-light m-l-101 btn-md" id="btnAdd" value="Add" data-bind="click: AddEmployeeDetails">
+									<input type="button" class="btn btn-success waves-effect waves-light m-l-101 btn-md btn-orange" id="btnAddUpdate" value="Update" data-bind="click: UpdateEmpDetails">
+									<input type="button" class="btn btn-success waves-effect waves-light m-l-101 btn-md btn-danger" id="btnAddDelete" value="Delete" data-bind="click: ConfirmEmpDelete">
+									<a id="btnReferesh" data-bind="click: FillGridData" aria-disabled="true" style="cursor:pointer;padding: 0px 5px;padding-left:0px 5px;"><span class="zmdi zmdi-refresh"></span></a>
+									<a class="zmdi-minus-common fa-minus-pos-n1" style="padding-left:5px !important;"><i class="fa fa-minus"></i></a>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<div class="box-body panel-body panel-body-table">
+						<table id="FilteredInfoGrid" class="tblgridheader table" style="width:100% !important"></table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal" id="ContactInformationDetailsPopup">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">Contact Details</h4>
+					<button type="button" style="color:black" class="close" data-bind="click:ClosePopup" data-dismiss="modal">&times;</button>
+				</div>
+				<!-- Modal body -->
+				<div class="modal-body loc-popup1 col-md-12 padding-top-bottom-10px">
+					<div class="row">
+						<div class="row col-sm-12">
+							<div class="col-sm-6">
+								<div class="form-group has-feedback">
+									<span id="lblvendcode" style="display: block;">First Name<span class="redcolor">*</span></span>
+									<input class="form-control" id="txtFname" data-bind="value:FirstName" style="color: black;" type="text" maxlength="100">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group has-feedback">
+									<span id="lbladd2">Last Name<span class="redcolor">*</span></span>
+									<input class="form-control" id="txtLname" data-bind="value: LastName" style="color: black;" type="text" maxlength="250">
+								</div>
+							</div>
+						</div>
+						<div class="row col-sm-12">
+							<div class="col-sm-6">
+								<div class="form-group has-feedback">
+									<span id="lblEmailId" style="display: block;">Email ID<span class="redcolor">*</span></span>
+									<span id="lblEmailIdMsg" style="color: red; display: none;">EmailID already exists &nbsp;<i class="fa fa-times-circle-o"></i></span>
+									<input class="form-control" id="txtEmail" data-bind="value: EmailId,enable:EmailId_enable" style="color: black;" type="text" maxlength="250">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group has-feedback">
+									<span id="lblContactNo" style="display: block;">Contact Number</span><span class="redcolor">*</span></span>
+									<span id="lblContactNoMsg" style="color: red; display: none;">Contact no already exists &nbsp;<i class="fa fa-times-circle-o"></i></span>
+									<input class="form-control" id="txtContactNumber" data-bind="value: ContactNumber" style="color: black;" type="text" maxlength="100">
+								</div>
+							</div>
+						</div>
+						<div class="row col-sm-12">
+							<div class="col-sm-12">
+								<div class="padding-top-10px">
+									<span class="col-sm-12 padding-left-0px" id="lblIsActive">Is Active &nbsp;</span>
+									<input id="chkActive" class="form-control1 col-sm-6 isactivcss" type="checkbox" checked="checked" data-bind="checked: IsActive,enable:IsActive_Enable" title="">
+									<span class="error" style="display: none;"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<div class="btmfooter float-right">
+						<div class="col-sm-12">
+							<div class="dispinline" data-bind="visible:IsAdd">
+								<input class="btn btn-block btn-success" id="btnAdd" type="button" value="Add" data-bind="click: Create">
+							</div>
+							<div class="dispinline" data-bind="visible:IsUpdate">
+								<input class="btn btn-block btn-success updatebtn" id="btnUpdate" type="button" value="Update" data-bind="click: Update">
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<script src="~/Scripts/ViewModels/ContactInformationDetails.js"></script>

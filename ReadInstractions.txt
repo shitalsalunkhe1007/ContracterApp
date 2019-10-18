@@ -1,0 +1,4 @@
+1.	Please create the database and table as mentioned in the “ContactInformationDatabaseScript.sql” file.
+2.	Please replace the connection string in Web.Config file. with new sql connection.
+3.	I have not concentrated most on UI and Unit testing currently. 
+4.	I will also do the it.

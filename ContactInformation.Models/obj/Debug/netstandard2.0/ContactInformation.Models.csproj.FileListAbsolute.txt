@@ -1,0 +1,11 @@
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Models\bin\Debug\netstandard2.0\ContactInformation.Models.deps.json
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Models\bin\Debug\netstandard2.0\ContactInformation.Models.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Models\bin\Debug\netstandard2.0\ContactInformation.Models.pdb
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Models\obj\Debug\netstandard2.0\ContactInformation.Models.csproj.CoreCompileInputs.cache
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Models\obj\Debug\netstandard2.0\ContactInformation.Models.AssemblyInfoInputs.cache
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Models\obj\Debug\netstandard2.0\ContactInformation.Models.AssemblyInfo.cs
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Models\obj\Debug\netstandard2.0\ContactInformation.Models.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Models\obj\Debug\netstandard2.0\ContactInformation.Models.pdb
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Models\bin\Debug\netstandard2.0\System.Web.Mvc.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Models\obj\Debug\netstandard2.0\ContactInformation.Models.csprojAssemblyReference.cache
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Models\obj\Debug\netstandard2.0\ContactInformation.Models.csproj.CopyComplete

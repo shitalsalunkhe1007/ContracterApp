@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\My Projects\\Contact Information\\ContactInformation\\ContactInformation.Test\\ContactInformation.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\My Projects\\Contact Information\\ContactInformation\\ContactInformation.Test\\ContactInformation.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\My Projects\\Contact Information\\ContactInformation\\ContactInformation.Test\\ContactInformation.Test.csproj",
+        "projectName": "ContactInformation.Test",
+        "projectPath": "C:\\My Projects\\Contact Information\\ContactInformation\\ContactInformation.Test\\ContactInformation.Test.csproj",
+        "packagesPath": "C:\\Users\\P10446723\\.nuget\\packages\\",
+        "outputPath": "C:\\My Projects\\Contact Information\\ContactInformation\\ContactInformation.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\P10446723\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.10.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

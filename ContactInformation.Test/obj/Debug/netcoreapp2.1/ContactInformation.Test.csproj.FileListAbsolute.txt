@@ -1,0 +1,15 @@
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\bin\Debug\netcoreapp2.1\ContactInformation.Test.deps.json
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\bin\Debug\netcoreapp2.1\ContactInformation.Test.runtimeconfig.json
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\bin\Debug\netcoreapp2.1\ContactInformation.Test.runtimeconfig.dev.json
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\bin\Debug\netcoreapp2.1\ContactInformation.Test.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\bin\Debug\netcoreapp2.1\ContactInformation.Test.pdb
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\obj\Debug\netcoreapp2.1\ContactInformation.Test.csprojAssemblyReference.cache
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\obj\Debug\netcoreapp2.1\ContactInformation.Test.csproj.CoreCompileInputs.cache
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\obj\Debug\netcoreapp2.1\ContactInformation.Test.AssemblyInfoInputs.cache
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\obj\Debug\netcoreapp2.1\ContactInformation.Test.AssemblyInfo.cs
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\obj\Debug\netcoreapp2.1\ContactInformation.Test.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Test\obj\Debug\netcoreapp2.1\ContactInformation.Test.pdb

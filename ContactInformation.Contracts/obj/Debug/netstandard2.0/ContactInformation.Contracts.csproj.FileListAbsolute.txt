@@ -1,0 +1,16 @@
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\bin\Debug\netstandard2.0\ContactInformation.Contracts.deps.json
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\bin\Debug\netstandard2.0\ContactInformation.Contracts.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\bin\Debug\netstandard2.0\ContactInformation.Contracts.pdb
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\bin\Debug\netstandard2.0\ContactInformation.Models.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\bin\Debug\netstandard2.0\EntityFramework.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\bin\Debug\netstandard2.0\EntityFramework.SqlServer.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\bin\Debug\netstandard2.0\ContactInformation.Models.pdb
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\bin\Debug\netstandard2.0\EntityFramework.xml
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\bin\Debug\netstandard2.0\EntityFramework.SqlServer.xml
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\obj\Debug\netstandard2.0\ContactInformation.Contracts.csprojAssemblyReference.cache
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\obj\Debug\netstandard2.0\ContactInformation.Contracts.csproj.CoreCompileInputs.cache
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\obj\Debug\netstandard2.0\ContactInformation.Contracts.AssemblyInfoInputs.cache
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\obj\Debug\netstandard2.0\ContactInformation.Contracts.AssemblyInfo.cs
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\obj\Debug\netstandard2.0\ContactInformation.Contracts.csproj.CopyComplete
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\obj\Debug\netstandard2.0\ContactInformation.Contracts.dll
+C:\My Projects\Contact Information\ContactInformation\ContactInformation.Contracts\obj\Debug\netstandard2.0\ContactInformation.Contracts.pdb
